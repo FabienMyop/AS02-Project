@@ -544,7 +544,7 @@ footer .container {
 	}
 
 	.hero::before {
-		background-image: url(../images/hero-bg-1000x667.jpg);
+		background-image: url(../images/hero-bg-1000x667_v2.webp);
 	}
 
 	.main-container {
@@ -584,7 +584,7 @@ footer .container {
 
 @media screen and (min-width: 1300px) {
 	.hero::before {
-		background-image: url(../images/hero-bg-1300x867.jpg);
+		background-image: url(../images/hero-bg-1300x867_v2.webp);
 	}
 
 	.nav-toggle-label {
