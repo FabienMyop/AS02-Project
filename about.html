@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<script defer src="script/script.js"></script>
+		<title>Haukai Restaurant</title>
+	</head>
+	<body>
+		<header>
+			<h1 class="title"><a href="index.html">Haukai Restaurant</a></h1>
+			<!-- navigation bar -->
+			<input type="checkbox" id="nav-toggle" class="nav-toggle" />
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Haukai</a></li>
+					<li><a href="menu.html">Menu</a></li>
+					<li><a href="hours.html">Hours</a></li>
+					<li><a href="reservation.html">Reservation</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<label for="nav-toggle" class="nav-toggle-label">
+				<span></span>
+			</label>
+		</header>
+
+		<!-- main content -->
+		<main>
+			<div class="main-about">
+				<div>
+					<h1>About Haukai Restaurant</h1>
+					<p>We are a restaurant specialising in Māori kai and are based in the Bay of Islands.</p>
+					<img
+						srcset="./images/about-480x319.jpg 480w, ./images/about-800x532.jpg 800w"
+						sizes="(max-width: 600px) 480px,
+                                800px"
+						src="./images/about-1040x692.jpg"
+						class="media"
+						alt="photo of a bay"
+					/>
+				</div>
+				<div>
+					<h1>About Māori cooking</h1>
+					<iframe
+						class="media"
+						src="https://www.youtube.com/embed/B8sKQeLmax0"
+						title="YouTube video player"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</div>
+			</div>
+		</main>
+
+		<!-- footer -->
+		<footer>
+			<div class="container">
+				<span>Haukai restaurant welcomes you every evening from Wednesday to Sunday</span>
+				<span>Made by Fabien for Haukai, 2022</span>
+				<button id="myBtn">Privacy statement</button>
+			</div>
+		</footer>
+
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div>
+					We collect personal information from you, including information about your:
+					<ul>
+						<li>name</li>
+						<li>contact information</li>
+					</ul>
+					<br>
+					We collect your personal information in order to:
+					<ul>
+						<li>be able to contact you when you make a reservation and when you send us a message.</li>
+					</ul>
+					<br>
+					Providing some information is optional. If you choose not to enter their contact details, we'll be unable to confirm their reservation or contact them back about any of their enquiries..
+					<br>
+					You have the right to ask for a copy of any personal information we hold about you, and to ask for it to be corrected if you think it is wrong. If you’d like to ask for a copy of your information, or to have it corrected, please contact us at info@haukai.co.nz, or 09 401 4019, or 1 Island Street, Kerikeri, Bay of Islands.</dio>
+				</div>
+		</div>
+	</body>
+</html>
